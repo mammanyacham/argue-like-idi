@@ -1,0 +1,65 @@
+[
+   {
+        "argument": "Someone says you should stop arguing all the time.",
+        "options": [
+            "Maybe i argue too much.",
+            "Ok, whatever.",
+            "Me? Argue? I just correct people that love being wrong.",
+            "I think i should listen more."
+        ],
+        "correctIndex": 2
+    },
+    {
+        "argument": "Paris is in France.",
+        "options":[
+            "How can it be in France? It’s in Amsterdam.",
+            "Of Course",
+            "oh, i didnt know that",
+            "Ok, we learn everyday"
+        ],
+        "correctIndex": 0
+
+    },
+     {
+        "argument": "You were sleeping while reading.",
+        "options": [
+            "I wasn’t sleeping. I was meditating. That’s how I absorb more.",
+            "Yes i got quite sleepy",
+            "I was so tired",
+            "I had a very stressful day"
+        ],
+        "correctIndex": 0
+    },
+     {
+        "argument": "Guy, you lost the argument",
+        "options": [
+            "I agree",
+            "Me? Lose? I simply withdrew, you weren’t ready for the deeper explanation.",
+            "You had better points",
+            "You lose some, You win some"
+        ],
+        "correctIndex": 1
+    },
+     {
+        "argument": "Humans need water to survive.",
+        "options":[
+            "a hundred percent",
+            "Need water? No, we survive just fine without it.",
+            "Are you sure?",
+            "I agree"
+        ],
+        "correctIndex": 1
+
+    },
+     {
+    "argument": "You didn’t hear me.",
+    "options": [
+        "Maybe true.",
+        "Yes, i was distracted",
+        "I heard you. I just decided not to respond immediately. Timing is key.",
+        "What where u saying?"
+    ],
+    "correctIndex": 2
+    }
+    
+]

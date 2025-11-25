@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argue like Idi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Handlee&family=Marcellus&family=MedievalSharp&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="pauxel.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Argue like Idris</h1>
+    </header>
+    <main class="main">
+        <div class="intro-container js-intro-container">
+            <!--------------Intro Section------------->
+            <section class="about-game js-about-game">
+                <h2>Meet Idris— The Master of Arguments</h2>
+                <div class="profile">
+                    <img alt="funny pic of Idi" class="profile-img" src="pic/id's-profile.png">
+                </div>
+                <p class="description">
+                    He’s that one friend who never admits he’s wrong, argues for sport, and somehow always has a comeback.
+                </p>
+                <button class="next-button js-next-button">Next >>></button>
+            </section>
+        </div>
+
+        <!-------------Main Game Page------------->
+        <div class="main-game-page js-main-game-page hidden">
+            <section class="game-page">
+                <div class="argument-div">
+                    <h2 class="arg"></h2>
+                </div>    
+                    <section class="answer-options">
+                        <button type="button" class="option" data-index="0"></button>
+                        <button type="button" class="option" data-index="1"></button>
+                        <button type="button" class="option" data-index="2"></button>
+                        <button type="button" class="option" data-index="3"></button>
+                    </section>
+
+                    <div class="modal-container js-modal-container hidden">
+                        <section class="modal-shadow">
+                            <div class="modal-content">
+                                <div class="modal-text-div">
+                                    <p class="modal-text js-modal-text"></p>
+                                </div>
+                                
+                                <div class="modal-button-div">
+                                    <button class="modal-button1 js-modal-button1">try again</button>
+                                    <button class="modal-button2 js-modal-button2">next argument</button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
+
+            
+    </main>
+
+    <script src="yoruba.js"></script>
+</body>
+</html>
